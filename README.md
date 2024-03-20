@@ -15,7 +15,7 @@
 
 In industrial environments, the lack of real-time monitoring leads to inefficiencies and delays in addressing critical issues. This project introduces an IIoT-based system for proactive monitoring and control, enhancing operational efficiency.
 
-![setup](Media/LaneDetection.jpg)
+![setup](Media/LaneDetection.jpeg)
 - **Fig 1:** Plant setup
 ---
 ![AWS_IoT_Core_System](Media/AWS_IoT_Core_System.jpg)
