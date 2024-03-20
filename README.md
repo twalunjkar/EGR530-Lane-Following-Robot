@@ -76,7 +76,7 @@ The project aims to achieve:
 - Optionally, integration of machine learning for enhanced decision-making.
 
 ---
-## Results
+## Conclusion
 
 The lane-following robot project, leveraging Jetson Nano and OpenCV, demonstrates the successful implementation of autonomous navigation capabilities. Through robust hardware integration and sophisticated software algorithms, the robot achieves high accuracy in lane detection and adapts effectively to diverse lighting conditions. The optional integration of machine learning further enhances its decision-making abilities, making it a versatile solution for various road scenarios. Overall, the project showcases a comprehensive approach to developing a compact, lightweight, and energy-efficient autonomous robot for lane following.
 
