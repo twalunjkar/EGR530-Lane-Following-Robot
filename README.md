@@ -79,7 +79,7 @@ The project aims to achieve:
 - **Fig 2:** Lane Detection Testing
 
 ![laneFollowing](Media/LaneFollowing.mp4)
-- **Fig 2:** Lane Following Testing
+- **Lane Following Testing**
 ---
 ## Conclusion
 
