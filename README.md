@@ -9,8 +9,8 @@
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [References](#references)
-- [Project Proposal](Documents/EGR530_Lane_Following.pptx)
-- [Project Slides](Documents/Project Proposal.pdf)
+- [Project Proposal](Documents/Project_Proposal.pdf)
+- [Project Slides](Documents/EGR530_Lane_Following.pptx)
 
 ## Overview
 
