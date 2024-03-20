@@ -15,7 +15,7 @@
 
 The project aims to develop a fully functional lane-following robot capable of autonomous navigation. Leveraging the Jetson Nano platform and OpenCV, the robot will process real-time camera data to make navigation decisions.
 
-![setup](Media/hardware_assembly.jpg)
+![ROSMASTER](Media/hardware_assembly.jpg)
 - **Fig 1:** ROSMASTER X3 Hardware Platform
 ---
 ## Key Features
@@ -24,9 +24,9 @@ The project aims to develop a fully functional lane-following robot capable of a
 - High accuracy in lane detection and tracking.
 - Adaptability to different lighting conditions.
 - Compact, lightweight, and energy-efficient design.
-
-## Project Structure
 ---
+## Project Structure
+
 ### Hardware Setup:
 - Selection and assembly of necessary components.
 - Integration of Jetson Nano board, camera module, chassis, drive system, motors, and power source.
@@ -64,7 +64,7 @@ The project aims to develop a fully functional lane-following robot capable of a
 - Sturdy chassis and drive system.
 - Precise motors and controllers.
 - Adequate power source for sustained operation.
-
+---
 ## Results
 
 The project aims to achieve:
@@ -75,18 +75,21 @@ The project aims to achieve:
 - Optimal performance under different scenarios.
 - Optionally, integration of machine learning for enhanced decision-making.
 
+![laneDetection](Media/LaneDetection.jpeg)
+- **Fig 2:** Lane Detection Testing
+
+![laneFollowing](Media/LaneFollowing.mp4)
+- **Fig 2:** Lane Following Testing
 ---
 ## Conclusion
 
 The lane-following robot project, leveraging Jetson Nano and OpenCV, demonstrates the successful implementation of autonomous navigation capabilities. Through robust hardware integration and sophisticated software algorithms, the robot achieves high accuracy in lane detection and adapts effectively to diverse lighting conditions. The optional integration of machine learning further enhances its decision-making abilities, making it a versatile solution for various road scenarios. Overall, the project showcases a comprehensive approach to developing a compact, lightweight, and energy-efficient autonomous robot for lane following.
-
+---
 ## References
 
 1. http://www.yahboom.net/study/ROSMASTER-X3
 2. http://wiki.ros.org/Documentation
 3. https://learnopencv.com/color-spaces-in-opencv-cpp-python/
-
-
-
+---
 ## Acknowledgment
 We appreciate the support from Professor Junfeng Zhao.
