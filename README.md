@@ -4,70 +4,85 @@
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Project Structure](#project-structure)
-  - [Simulation/Software](#simulationsoftware)
-  - [Hardware Plant Setup](#hardware-plant-setup)
+  - [Software](#software)
+  - [Hardware](#hardware)
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [References](#references)
-- [Project Report](AME_598_Final_Project_Report_%20Tejaswini_Ashok_Walunjkar.pdf)
+- [Project Slides](EGR530_Lane_Following.pptx)
 
 ## Overview
 
-In industrial environments, the lack of real-time monitoring leads to inefficiencies and delays in addressing critical issues. This project introduces an IIoT-based system for proactive monitoring and control, enhancing operational efficiency.
+The project aims to develop a fully functional lane-following robot capable of autonomous navigation. Leveraging the Jetson Nano platform and OpenCV, the robot will process real-time camera data to make navigation decisions.
 
-![setup](Media/LaneDetection.jpeg)
-- **Fig 1:** Plant setup
----
-![AWS_IoT_Core_System](Media/AWS_IoT_Core_System.jpg)
-- **Fig 2:** AWS IoT Core System
+![setup](Media/hardware_assembly.jpg)
+- **Fig 1:** ROSMASTER X3 Hardware Platform
 ---
 ## Key Features
 
-- Continuous data collection from strategically placed sensors.
-- Real-time monitoring for anomaly detection.
-- Customizable alert thresholds for timely response.
-- Integration with AWS services: Lambda, Timestream, DynamoDB, Grafana, and IoT Core.
+- Utilization of Jetson Nano for real-time image processing.
+- High accuracy in lane detection and tracking.
+- Adaptability to different lighting conditions.
+- Compact, lightweight, and energy-efficient design.
 
 ## Project Structure
 ---
-The proposed approach comprises installation of a strong industrial monitoring system that uses strategically placed sensors to collect real-time data in the industrial setting. These sensors function as data gathering nodes, securely transferring information to a centralized server suited for data management. To enable easy collation and retrieval, the server employs modern data handling techniques. Real-time data analysis is used to improve the systems’ capabilities by implementing complex algorithms aimed for anomaly identification and SNS for quick redressal in response to vital sensor data . Users can customize alert thresholds to tailor notifications based on specific characteristics, ensuring a prompt and targeted response to emergent situations. To give users a full insight, This proposed method includes developing of a demonstration kit, replicating a real-world industrial process plant, along with an IoT System pipeline and user-friendly dashboards. These dashboards will provide user friendly monitoring interfaces to analyze large data easily.
+### Hardware Setup:
+- Selection and assembly of necessary components.
+- Integration of Jetson Nano board, camera module, chassis, drive system, motors, and power source.
+- Functional testing of hardware components.
 
-### Simulation/ Software
+### Software Setup:
+- Installation of required software tools and libraries.
+- Configuration of development environment for Jetson Nano.
+- Calibration of camera module and development of lane detection algorithm.
 
-In the development of an AWS IoT Core pipeline, a Python script was created to simulate sensor data, generating realistic information using libraries such as 'random'. The script establishes an MQTT connection to the AWS IoT Core endpoint, publishing simulated sensor data at regular intervals. AWS IoT policies and security credentials were configured to enable secure communication. Subsequently, an AWS IoT Rule was set up to trigger a Lambda function upon receiving the simulated data, allowing for further processing or integration with other AWS services. This comprehensive integration provides a foundation for scalable and real-time handling of sensor data within the AWS ecosystem.
+### Steering Control:
+- Development of control algorithm based on lane detection data.
+- Parameter tuning for optimal performance.
+- Testing under various scenarios including curves, intersections, and lane changes.
 
-### Hardware Plant Setup
+### Testing and Optimization:
+- Extensive testing under diverse conditions.
+- Incorporation of user feedback for improvements.
+- Performance optimization for accuracy and reliability.
 
-A DIY approach was employed to develop a two-tank fluid system, involving the creation and soldering of electronic circuits, assembly of a piping system, 3D printing of components, and sensor integration. Electronic circuits included voltage regulators and controllers to monitor and control fluid levels. The piping system focused on secure connections and seamless fluid flow between tanks. 3D printing was utilized for manufacturing bulkheads and connectors, ensuring precise fitment for rapid deployment of this custom fluid system, from electrical component housing to connectors.
+### Documentation and Presentation:
+- Project documentation covering hardware, software, algorithms, and findings.
+- Preparation of a presentation to demonstrate the project.
+
+### Software
+
+- Utilization of OpenCV for real-time image processing.
+- Development of algorithms for lane detection and tracking.
+- Possible integration of machine learning frameworks for advanced decision-making.
+
+### Hardware
+
+- Jetson Nano board for processing power.
+- High-quality camera module for real-time video capture.
+- Sturdy chassis and drive system.
+- Precise motors and controllers.
+- Adequate power source for sustained operation.
 
 ## Results
 
-Successful implementation of algorithms and hardware configurations led to the active use of the demo kit.
+The project aims to achieve:
 
-![MQTT_test](Media/MQTT_test.jpg)
-- **Fig 3:** AWS IoT Core receiving real-time data
----
-![lambda_function](Media/lambda_function.jpg)
-- **Fig 4:** AWS Lambda function receives and processes data for storage
----
-![SNS](Media/SNS.jpg)
-- **Fig 5:** AWS Lambda function also sends mail alert notifications (SNS)
----
-![dashboard](Media/dashboard.jpg)
-- **Fig 6:** Dashboard showing real-time data
----
+- Successful autonomous navigation of the lane-following robot.
+- High accuracy in lane detection and tracking.
+- Adaptability to various lighting conditions.
+- Optimal performance under different scenarios.
+- Optionally, integration of machine learning for enhanced decision-making.
 
+---
+## Results
+
+The lane-following robot project, leveraging Jetson Nano and OpenCV, demonstrates the successful implementation of autonomous navigation capabilities. Through robust hardware integration and sophisticated software algorithms, the robot achieves high accuracy in lane detection and adapts effectively to diverse lighting conditions. The optional integration of machine learning further enhances its decision-making abilities, making it a versatile solution for various road scenarios. Overall, the project showcases a comprehensive approach to developing a compact, lightweight, and energy-efficient autonomous robot for lane following.
 
 ## References
 
 1. http://www.yahboom.net/study/ROSMASTER-X3  
-2. Supported actions - AWS IOT events. (n.d.-b). https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-supported-actions.html 
-3. Tutorials - AWS IOT events. (n.d.-c). https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-tutorials.html
-4. AWS Lambda Documentation. (n.d.-d). https://docs.aws.amazon.com/lambda/?icmpid=docs_homepage_featuredsvcs
-5. AWS DynamoDB Documentation. (n.d.-e). https://docs.aws.amazon.com/dynamodb/?icmpid=docs_homepage_featuredsvcs
-6. AWS SNS Documentation. (n.d.-f). https://docs.aws.amazon.com/sns/
-7. AWS EC2 Documentation. (n.d.-g). https://docs.aws.amazon.com/ec2/?icmpid=docs_homepage_featuredsvcs
-8. AWS TimeStream Documentation. (n.d.-h). https://docs.aws.amazon.com/timestream/latest/developerguide/Grafana.html
 
 ## Acknowledgment
-We appreciate the support from faculty members Tejaswi Linge Gowda and Assegid Kidane.
+We appreciate the support from Professor Junfeng Zhao.
