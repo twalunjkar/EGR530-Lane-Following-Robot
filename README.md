@@ -1,4 +1,4 @@
-# IoT-Based Factory/ Plant Monitoring and Control System
+# Lane Following Robot
 
 
 - [Overview](#overview)
@@ -15,7 +15,7 @@
 
 In industrial environments, the lack of real-time monitoring leads to inefficiencies and delays in addressing critical issues. This project introduces an IIoT-based system for proactive monitoring and control, enhancing operational efficiency.
 
-![setup](Media/setup.jpg)
+![setup](Media/LaneDetection.jpg)
 - **Fig 1:** Plant setup
 ---
 ![AWS_IoT_Core_System](Media/AWS_IoT_Core_System.jpg)
@@ -60,7 +60,7 @@ Successful implementation of algorithms and hardware configurations led to the a
 
 ## References
 
-1. Detector model examples - AWS IOT events. (n.d.-a). https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-examples.html  
+1. http://www.yahboom.net/study/ROSMASTER-X3  
 2. Supported actions - AWS IOT events. (n.d.-b). https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-supported-actions.html 
 3. Tutorials - AWS IOT events. (n.d.-c). https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-tutorials.html
 4. AWS Lambda Documentation. (n.d.-d). https://docs.aws.amazon.com/lambda/?icmpid=docs_homepage_featuredsvcs
