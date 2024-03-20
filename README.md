@@ -82,7 +82,11 @@ The lane-following robot project, leveraging Jetson Nano and OpenCV, demonstrate
 
 ## References
 
-1. http://www.yahboom.net/study/ROSMASTER-X3  
+1. http://www.yahboom.net/study/ROSMASTER-X3
+2. http://wiki.ros.org/Documentation
+3. https://learnopencv.com/color-spaces-in-opencv-cpp-python/
+
+
 
 ## Acknowledgment
 We appreciate the support from Professor Junfeng Zhao.
