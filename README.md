@@ -11,7 +11,7 @@
 - [References](#references)
 - [Project Documents](Documents)
   - [Project Proposal](Documents/Project_Proposal.pdf)
-  - [Project Slides](Documents/EGR530_Lane_Following.pptx)
+  - [Project Slide](Documents/EGR530_Lane_Following.pptx)
 
 ## Overview
 
