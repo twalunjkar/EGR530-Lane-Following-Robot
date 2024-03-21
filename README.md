@@ -29,30 +29,6 @@ The project aims to develop a fully functional lane-following robot capable of a
 ---
 ## Project Structure
 
-### Hardware Setup:
-- Selection and assembly of necessary components.
-- Integration of Jetson Nano board, camera module, chassis, drive system, motors, and power source.
-- Functional testing of hardware components.
-
-### Software Setup:
-- Installation of required software tools and libraries.
-- Configuration of development environment for Jetson Nano.
-- Calibration of camera module and development of lane detection algorithm.
-
-### Steering Control:
-- Development of control algorithm based on lane detection data.
-- Parameter tuning for optimal performance.
-- Testing under various scenarios including curves, intersections, and lane changes.
-
-### Testing and Optimization:
-- Extensive testing under diverse conditions.
-- Incorporation of user feedback for improvements.
-- Performance optimization for accuracy and reliability.
-
-### Documentation and Presentation:
-- Project documentation covering hardware, software, algorithms, and findings.
-- Preparation of a presentation to demonstrate the project.
-
 ### Software
 
 - Utilization of OpenCV for real-time image processing.
@@ -68,8 +44,6 @@ The project aims to develop a fully functional lane-following robot capable of a
 - Adequate power source for sustained operation.
 ---
 ## Results
-
-The project aims to achieve:
 
 - Successful autonomous navigation of the lane-following robot.
 - High accuracy in lane detection and tracking.
