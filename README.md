@@ -83,6 +83,8 @@ The project aims to achieve:
 ![laneFollowing](Media/LaneFollowing.gif)
 
 Lane following test: Media/LaneFollowing.mp4
+[Lane Following Test Video](Media/LaneFollowing.mp4)
+
 ---
 
 ## Conclusion
